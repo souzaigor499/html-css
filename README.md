@@ -3,6 +3,6 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meu repositórios hoje
 <ul>
- <li><a href="https://souzaigor499.github.io/html-css/desafios/dex010b/android.html" target="_blank"> Teste o mini projeto </a>
+ <li><a href="https://souzaigor499.github.io/html-css/desafios/des010b/android.html" target="_blank"> Teste o mini projeto </a>
  </li>
  </ul>
