@@ -8,7 +8,9 @@
  Veja uma landing page </a>
 
  </li>
+ <li>
  <a href="https://souzaigor499.github.io/projeto-android/" target="_blank"> Teste o mini projeto </a>
+ </li>
  <li><a href="https://souzaigor499.github.io/html-css/starbucks/" target="_blank">Clone do Starbucks</a>
  </li>
  <li>
