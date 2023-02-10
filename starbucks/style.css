@@ -1,0 +1,389 @@
+body{
+    margin: 0;
+    font-family:"Sodo Sans SemiBold",Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}
+
+.navbar{
+    height: 65px;
+    background-color: white;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-shadow: 0px 1px 5px 1px rgba(153,163,159,1);
+-moz-box-shadow: 0px 1px 5px 1px rgba(153,163,159,1);
+box-shadow: 0px 1px 5px 1px rgba(153,163,159,1);
+
+}
+
+.navbar-left img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+.navbar-left div:hover, 
+.find-a-store:hover > *{
+    color:#008248;
+}
+
+.navbar-right a{
+    text-decoration: none;
+}
+
+.navbar-left, 
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left > *, 
+.navbar-right > *{
+    padding: 10px;
+    margin: 10px;
+}
+
+.find-a-store{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.start{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    color: #1e3932;
+    background-color: #d4e9e2;
+    -webkit-box-shadow: inset 0px 9px 5px -8px rgba(153,163,159,0.6);
+-moz-box-shadow: inset 0px 9px 5px -8px rgba(153,163,159,0.6);
+box-shadow: inset 0px 9px 5px -8px rgba(153,163,159,0.6);
+    
+}
+
+.fresh{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.join{
+    font-weight: 5 00;
+    font-family: "Noto Sans Adlam Unjoined";
+    font-size: 19px;
+    letter-spacing: 0.3px;
+}
+
+.join a {
+    color: #1e3932;
+}
+
+.join a:hover {
+    text-decoration: none;
+}
+
+.sign-in,
+.join-now{
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 6px 20px 6px 20px;
+    transition-duration: 200ms;
+
+}
+
+.join-now{
+    background-color: black;
+    color: white;
+}
+    
+    
+
+.join-now:hover{
+    background: rgba(0,0,0,.85);
+    transform: scale(.90);
+    
+    -webkit-box-shadow: 0 3px 3px 0 rgb(0 0 0 / 14%), 0 1px 7px 0 rgb(0 0 0 / 12%), 0 3px 1px -1px rgb(0 0 0 / 20%);
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 14%), 0 1px 7px 0 rgb(0 0 0 / 12%), 0 3px 1px -1px rgb(0 0 0 / 20%);
+}
+    
+
+
+.sign-in:hover{
+    background: rgba(0,0,0,.05) ;
+    transform: scale(.90);
+    -webkit-box-shadow: 0 3px 3px 0 rgb(0 0 0 / 14%), 0 1px 7px 0 rgb(0 0 0 / 12%), 0 3px 1px -1px rgb(0 0 0 / 20%);
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 14%), 0 1px 7px 0 rgb(0 0 0 / 12%), 0 3px 1px -1px rgb(0 0 0 / 20%);
+
+
+}
+
+.boosters {
+    
+    max-width: 100vw;
+    margin-top: 30px;
+    
+    background-color: #96b2e1;
+    display: flex;
+    align-items: center;
+}
+
+.product-left{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.product-left h1, div{
+    color: #1e3932;
+    
+
+}
+.product-left h1{
+    margin-top: -20px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.recharge{
+    
+    font-family: "Noto Sans Adlam Unjoined";
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 5px;
+    
+}
+
+.product-right img{
+    width: 50vw;
+    height: fill;
+    
+}
+
+.order-now{
+    transition-duration: 200ms;
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px #1e3932 solid;
+    border-radius: 25px;
+
+}
+
+.order-now:hover{
+    
+    background: rgba(0,0,0,.05) ;
+    transform: scale(.90);
+    -webkit-box-shadow: 0 3px 3px 0 rgb(0 0 0 / 14%), 0 1px 7px 0 rgb(0 0 0 / 12%), 0 3px 1px -1px rgb(0 0 0 / 20%);
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 14%), 0 1px 7px 0 rgb(0 0 0 / 12%), 0 3px 1px -1px rgb(0 0 0 / 20%);
+
+}
+
+.product-left a{
+    text-decoration: none;
+
+}
+
+
+
+.day-brake{
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #d4e9e2;
+}
+
+.product-left2 img{
+    width: 50vw;
+}
+
+.product-right2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-right2 a{
+    text-decoration: none;
+
+}
+
+.product-right2 h1{
+    margin-top: -20px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.participating{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: inset 0px -13px 4px -12px rgba(224,224,224,1);
+-moz-box-shadow: inset 0px -13px 4px -12px rgba(224,224,224,1);
+box-shadow: inset 0px -13px 4px -12px rgba(224,224,224,1);}
+
+.stores{
+    margin-top: 20px;
+    color: black;
+    font-size: 14px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 50px;
+    
+    
+}
+
+.table{
+    width: max-content;
+    display: flex;
+    padding: 0px;
+    width: 90vw;
+    justify-content: left;
+    
+}
+
+
+
+.about-us{
+    color: black;
+    margin-right: 20px;
+    margin-left: 0px;
+    
+}
+
+.about-us h2{
+    font-size: 20px;
+    font-family: "Noto Sans Adlam Unjoined";
+    font-weight: 300;
+
+    
+}
+
+.list{
+    
+    list-style-type: none;
+    padding: 0px;
+    margin-right: 55px;
+    
+}
+
+.item{
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Noto Sans Adlam Unjoined";
+    font-weight: 200;
+    margin-top: 30px;
+    color: gray;
+}
+
+.list a{
+    text-decoration: none;
+}
+
+.list a:hover li{
+    color: black;
+}
+
+.linha{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.253);
+    width: 100%;
+    height: 2px;
+    text-decoration: none;
+    border: 0px;
+}
+
+.navdown{
+    width: 100%;
+    
+}
+
+.navdown ul{
+    padding-left: 0px;
+}
+
+.links{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+.links li{
+    margin-left: 16px;
+    
+}
+
+.links svg{
+    color: #1e1e1e;
+    border-radius: 50%;
+    transition: .2s;
+    
+    
+}
+
+.links li:hover svg{
+
+    background-color: rgba(207,207,207,1);
+    -webkit-box-shadow: 0px 0px 1px 7px rgba(232,232,232,1);
+    -moz-box-shadow: 0px 0px 1px 7px rgba(232,232,232,1);
+    box-shadow: 0px 0px 1px 7px rgba(232,232,232,1);
+}
+
+.links2{
+    margin-bottom: 25px;
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    color: black;
+}
+
+
+.links2 a {
+    font-size: 16px;
+    font-family: "Noto Sans Adlam Unjoined";
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.links2 a:hover{
+    text-decoration: underline;
+}
+
+.links2 li{
+    margin-right: 25px;
+}
+
+.links2 span{
+    color: rgba(0,0,0,.58)!important;
+    font-weight: lighter;
+    margin-right: 25px;
+}
+
+.reserved{
+    font-family: "Noto Sans Adlam Unjoined";
+    color:gray ;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
