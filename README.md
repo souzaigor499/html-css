@@ -14,6 +14,9 @@
  <li><a href="https://souzaigor499.github.io/html-css/starbucks/" target="_blank">Clone do Starbucks</a>
  </li>
  <li>
- <a href=https://souzaigor499.github.io/javascript/POO>Minha lojinha</a>
+ <a href="https://souzaigor499.github.io/javascript/POO">Minha lojinha</a>
+ </li>
+ <li>
+ <a href="https://souzaigor499.github.io/javascript/Flappy%20Bird/">Flappy Bird</a>
  </li>
  </ul>
