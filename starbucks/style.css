@@ -29,8 +29,12 @@ box-shadow: 0px 1px 5px 1px rgba(153,163,159,1);
     
 }
 
-.navbar-left div:hover, 
-.find-a-store:hover > *{
+.navbar-left a {
+    text-decoration: none;
+    
+}
+
+.navbar-left div:hover {
     color:#008248;
 }
 
@@ -50,11 +54,23 @@ box-shadow: 0px 1px 5px 1px rgba(153,163,159,1);
     margin: 10px;
 }
 
-.find-a-store{
+.find-a-store-link  .find-a-store{
     display: flex;
     align-items: center;
     font-weight: 500;
+    
 }
+
+.find-a-store-link:hover  .find-a-store{
+    color: #008248;
+}
+    
+
+
+
+
+
+
 
 .start{
     
@@ -327,12 +343,14 @@ box-shadow: inset 0px -13px 4px -12px rgba(224,224,224,1);}
     list-style-type: none;
     display: flex;
     justify-content: left;
+    
 }
 
 .links li{
     margin-left: 16px;
     
 }
+
 
 .links svg{
     color: #1e1e1e;
