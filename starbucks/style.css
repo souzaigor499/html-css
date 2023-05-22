@@ -26,6 +26,7 @@ box-shadow: 0px 1px 5px 1px rgba(153,163,159,1);
 .navbar-left div {
     text-transform: uppercase;
     font-weight: 600;
+    text-decoration: none;
     
 }
 
